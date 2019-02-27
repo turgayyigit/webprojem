@@ -1,30 +1,19 @@
-.deneme{
-	height:300px;
-	width:500px;
+*{margin:0px;padding:0px;}
+.geneldiv{
+	width:1920px;
+	margin:0
+	auto;
+	height:1080px;
+	background-color:gray;
+}
+.ustdiv{
+	height:169px;
 	background-color:black;
 }
-.deneme1{
-	height:100px;
-	widht:250px;
-	background-color:red;
+.logo{
+	float:left;
 }
-.deneme2{
-	height:100px;
-	widht:250px;
-	background-color:yellow;
-}
-.deneme3{
-	height:100px;
-	widht:250px;
-	background-color:green;
-}
-.deneme4{
-	height:100px;
-	widht:250px;
-	background-color:blue;
-}
-.deneme5{
-	height:100px;
-	widht:250px;
-	background-color:gray;
+.ustmenu{
+	float:right;
+	background-color:white;
 }
