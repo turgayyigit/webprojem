@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
 	<meta charset="UTP-8">
-	<title>Document</title>
+	<title>TURGAY YİĞİT</title>
 	<link rel="stylesheet" href="sttyle.css">
 </head>
 <body>
@@ -10,48 +12,71 @@
 
 		<div class="ustdiv">
 
-		<div class="logo">
-			<img src="trqay.png">
+			<div class="logo">
+				<img src="trqay.png">
+			</div>
+
+			<div class="siteismi" text-color="yellow">TURGAYYİĞİT</div>
+
+			<div class="ustmenu">BURADA MENU VARDIR</div>
+		
+		</div>
+		
+		<div class="OrtaKisim">
+		<div class="yanbar">
+			<div class="icon-bar">
+				<a class="active" href="#"><i class="fa fa-home"></i></a> 
+				<a href="#"><i class="fa fa-search"></i></a> 
+				<a href="#"><i class="fa fa-envelope"></i></a> 
+				<a href="#"><i class="fa fa-globe"></i></a>
+				<a href="#"><i class="fa fa-trash"></i></a> 
+			</div>
 		</div>
 
-		<div class="siteismi"></div>
-
-		<div class="ustmenu">BURADA MENU VARDIR</div></div>
-
 		<div class="gövde">
-			<h2>Automatic Slideshow</h2>
-<p>Change image every 2 seconds:</p>
+		
+			
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+				<div class="numbertext">1 / 4</div>
+				<img src="1.jpg" style="width:100%">
+				<div class="text">TURGAY YİĞİT</div>
+			</div>
 
-<div class="slideshow-container">
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 4</div>
+				<img src="2.jpg" style="width:100%">
+				<div class="text">TURGAY YİĞİT</div>
+			</div>
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="1.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
-</div>
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 4</div>
+				<img src="3.jpg" style="width:100%">
+				<div class="text">TURGAY YİĞİT</div>
+			</div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="2jpg" style="width:100%">
-  <div class="text">Caption Two</div>
-</div>
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 4</div>
+				<img src="4.jpg" style="width:100%">
+				<div class="text">TURGAY YİĞİT</div>
+			</div>
 
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="3.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-</div>
+		</div>
 <br>
 
 <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
 </div>
-		</div>
+</div>
 
 	</div>
+	
+	<script src="script.js"></script>
 </body>
 </html>
