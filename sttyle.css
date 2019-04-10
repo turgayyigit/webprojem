@@ -18,6 +18,8 @@
 	background-color:white;
 }
 .yanbar{
+	position: relative;
+    margin: left;
 	width: 90px;
 	background-color: #555;
 }
