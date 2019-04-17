@@ -17,8 +17,9 @@
 	float:right;
 	background-color:white;
 }
-.yanbar{
-	position: relative;
+.iconbar{
+	position: fixed;
+	top: 150px;
     margin: left;
 	width: 90px;
 	background-color: #555;
