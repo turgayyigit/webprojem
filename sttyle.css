@@ -24,6 +24,18 @@
 	width: 90px;
 	background-color: #555;
 }
+.menu{
+  height: 40px;
+  width: 1920px;
+  background-color: white;
+  margin:0 auto;
+}
+.menu a{
+  height: 70px;
+  width: 200px;
+  background-color: red;
+  text-decoration: none;
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
